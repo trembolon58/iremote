@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+  ns = "http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+  <locations  
+    class = "java.util.ArrayList">
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.create_control.CreateControlActivity"/>
+      <point      
+        x = "500"      
+        y = "1480"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.automatch.AutoMatchActivity"/>
+      <point      
+        x = "550"      
+        y = "1530"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.select_control.FindByBrandActivity"/>
+      <point      
+        x = "600"      
+        y = "1580"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.rooms.RoomsActivity"/>
+      <point      
+        x = "650"      
+        y = "1630"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.select_control.SelectControlActivity"/>
+      <point      
+        x = "500"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.MenuState"      
+        className = "ru.obsession.iremote.select_control.SelectControlActivity"/>
+      <point      
+        x = "1720"      
+        y = "100"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.MainActivity"/>
+      <point      
+        x = "700"      
+        y = "1680"/>
+    </statePointEntry>
+    <statePointEntry>
+      <state      
+        class = "com.android.tools.idea.editors.navigation.model.ActivityState"      
+        className = "ru.obsession.iremote.widget.WidgetSettingsActivity"/>
+      <point      
+        x = "748"      
+        y = "1728"/>
+    </statePointEntry>
+  </locations>
+</navigationModel>

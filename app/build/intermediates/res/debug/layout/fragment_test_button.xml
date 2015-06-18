@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp">
+
+    <RelativeLayout
+        android:paddingTop="32dp"
+        android:id="@+id/buttonContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linearLayout5"
+        android:layout_below="@+id/textView7">
+
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton1"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"
+            android:layout_alignTop="@+id/controlButton2"
+            android:layout_toLeftOf="@+id/controlButton2"
+            android:layout_toStartOf="@+id/controlButton2" />
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton2"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="8dp"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"/>
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton3"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"
+            android:layout_alignTop="@+id/controlButton2"
+            android:layout_toRightOf="@+id/controlButton2"
+            android:layout_toEndOf="@+id/controlButton2" />
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton4"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"
+            android:layout_alignTop="@+id/controlButton5"
+            android:layout_toLeftOf="@+id/controlButton2"
+            android:layout_toStartOf="@+id/controlButton2" />
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton5"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"
+            android:layout_below="@+id/controlButton2"
+            android:layout_alignLeft="@+id/controlButton2"
+            android:layout_alignStart="@+id/controlButton2" />
+        <com.gc.materialdesign.views.ButtonFloat
+            android:id="@+id/controlButton6"
+            android:layout_width="@dimen/control_button_size"
+            android:layout_height="@dimen/control_button_size"
+            android:layout_alignTop="@+id/controlButton5"
+            android:layout_toRightOf="@+id/controlButton2"
+            android:layout_toEndOf="@+id/controlButton2" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/response"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#1E88E5"
+            android:paddingBottom="16dp"
+            android:text="@string/responce" />
+
+        <com.gc.materialdesign.views.ButtonRectangle
+            android:id="@+id/notResponse"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#1E88E5"
+            android:paddingBottom="16dp"
+            android:text="@string/not_responce" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/match_tutorial"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:id="@+id/textCount"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/fragment_test_button.xml -->

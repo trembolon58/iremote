@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true">
+
+        <include layout="@layout/button_condition" />
+    </RelativeLayout>
+
+
+    <ru.obsession.iremote.views.Twice
+        android:id="@+id/temperature"
+        android:layout_width="@dimen/twice_width"
+        android:layout_height="@dimen/twice_height"
+        android:layout_below="@+id/display"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:tag="joustic2_temperature"
+        materialdesign:iconDrawable="@drawable/joustic2_temperature" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/temperature"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/temperature"
+        android:tag="power"
+        materialdesign:iconDrawable="@drawable/power" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/fan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/temperature"
+        android:layout_marginRight="32dp"
+        android:layout_toLeftOf="@+id/temperature"
+        android:tag="fan"
+        materialdesign:iconDrawable="@drawable/fan" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/mode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/temperature"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/temperature"
+        android:tag="mode"
+        materialdesign:iconDrawable="@drawable/mode" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/temperature"
+        android:layout_marginLeft="32dp"
+        android:layout_toRightOf="@+id/temperature"
+        android:tag="vertical_wind"
+        materialdesign:iconDrawable="@drawable/vertical_wind" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/temperature"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="16dp">
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/sleep"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/cooling"
+            android:tag="sleep"
+            materialdesign:iconDrawable="@drawable/sleep" />
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/cooling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/heating"
+            android:tag="cooling"
+            materialdesign:iconDrawable="@drawable/cooling" />
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/heating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:tag="heating"
+            materialdesign:iconDrawable="@drawable/heating" />
+
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Android\iremote\MaterialDesign\assets"><file name="sprite_check.png" path="C:\Android\iremote\MaterialDesign\assets\sprite_check.png"/></source></dataSet><dataSet config="debug"><source path="C:\Android\iremote\MaterialDesign\src\debug\assets"/></dataSet></merger>

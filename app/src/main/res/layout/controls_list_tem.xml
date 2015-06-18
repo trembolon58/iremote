@@ -1,0 +1,51 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:focusable="false"
+    android:clickable="false"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/control_icon_height"
+    android:paddingBottom="3dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="1dp">
+
+    <RelativeLayout
+        android:id="@+id/itemContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_selector"
+        android:paddingRight="12dp">
+
+        <ImageView
+            android:id="@+id/imageIcon"
+            android:layout_width="@dimen/control_icon_height"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="2dp" />
+
+
+        <TextView
+            android:id="@+id/textCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textModel"
+            android:layout_alignStart="@+id/textModel"
+            android:layout_alignTop="@+id/imageIcon"
+            android:padding="2dp"
+            android:text="Fujicu"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCompany"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:paddingLeft="16dp"
+            android:text="66666"
+            android:textColor="@color/secondary_text" />
+
+    </RelativeLayout>
+</FrameLayout>

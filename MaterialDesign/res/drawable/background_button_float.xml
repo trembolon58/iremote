@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item android:drawable="@drawable/float_button_shadow1">
+    </item>
+    <item
+        android:id="@+id/shape_bacground"
+        android:bottom="1dp"
+        android:left="0dp"
+        android:top="0dp"
+        android:right="0dp">
+        <shape android:shape="oval" >
+            <solid android:color="#03A9F4" />
+        </shape>
+    </item>
+
+</layer-list>

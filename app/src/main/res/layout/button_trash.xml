@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.obsession.iremote.views.TrashControl xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/drawer_button_size"
+    android:layout_height="@dimen/drawer_button_size"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentRight="true"
+    android:layout_margin="8dp"
+    android:background="#1E88E5"
+    materialdesign:iconDrawable="@drawable/other" />

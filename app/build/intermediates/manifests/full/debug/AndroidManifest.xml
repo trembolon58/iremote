@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ru.obsession.iremote"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="ru.obsession.iremote.IRemote"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="ru.obsession.iremote.MainActivity"
+            android:screenOrientation="userPortrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.obsession.iremote.select_control.SelectControlActivity"
+            android:label="@string/title_activity_select_controll"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+
+        <receiver
+            android:name="ru.obsession.iremote.widget.ControlWidgetProvider"
+            android:label="iRemote" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <action android:name="ru.obsession.iremote.widget.ACTION_WIDGET_RECEIVER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/control_widget" />
+        </receiver>
+
+        <activity
+            android:name="ru.obsession.iremote.widget.WidgetSettingsActivity"
+            android:label="@string/title_activity_widget_settings"
+            android:theme="@style/AppTheme.WithActionBar" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_CONFIGURE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="ru.obsession.iremote.rooms.RoomsActivity"
+            android:label="@string/title_activity_rooms"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/Theme.TranslucentActionBar.ActionBar.Overlay"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="ru.obsession.iremote.automatch.AutoMatchActivity"
+            android:label="@string/auto_match"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name="ru.obsession.iremote.create_control.CreateControlActivity"
+            android:label="@string/title_activity_create_custom_controll"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name="ru.obsession.iremote.select_control.FindByBrandActivity"
+            android:label="@string/title_activity_select_controll"
+            android:screenOrientation="userPortrait"
+            android:theme="@style/AppTheme.WithActionBar"
+            android:windowSoftInputMode="adjustResize" >
+        </activity>
+        <activity
+            android:name="android.support.v7.widget.TestActivity"
+            android:label="RecyclerViewTestActivity" />
+    </application>
+
+</manifest>

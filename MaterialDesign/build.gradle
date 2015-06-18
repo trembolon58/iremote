@@ -1,0 +1,35 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply plugin: 'com.jfrog.bintray'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion '20.0.0'
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['src']
+
+            renderscript.srcDirs = ['src']
+
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+        }
+        androidTest.setRoot('tests')
+    }
+
+    defaultConfig {
+        minSdkVersion 8
+        targetSdkVersion 17
+        versionCode 1
+        versionName '1'
+    }
+}
+dependencies {
+    compile 'com.nineoldandroids:library:2.4.0'
+    compile 'com.android.support:support-v4:22.0.0'
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_help"
+        android:title="@string/help"
+        android:orderInCategory="100"
+        android:icon="@android:drawable/ic_menu_help"
+        app:showAsAction="never" />
+    <item android:id="@+id/action_save"
+        android:title="@string/save"
+        android:icon="@drawable/save"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom" />
+</menu><!-- From: file:/C:/Android/iremote/app/src/main/res/menu/diy.xml -->

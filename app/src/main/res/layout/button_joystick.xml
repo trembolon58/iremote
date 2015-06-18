@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.obsession.iremote.views.Joystick xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topControl"
+    android:layout_width="@dimen/joystick_height"
+    android:layout_height="@dimen/joystick_height"
+    android:clipChildren="false"
+    android:clipToPadding="false" />

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/itemContainer"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/drawer_icon_size"
+    android:layout_margin="2dp"
+    android:background="@drawable/item_selector">
+
+    <ImageView
+        android:id="@+id/imageIcon"
+        android:layout_width="@dimen/drawer_icon_size"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textCompany"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textModel"
+            android:layout_alignStart="@+id/textModel"
+            android:layout_alignTop="@+id/imageIcon"
+            android:padding="2dp"
+            android:text="Fujicu"
+            android:textColor="@color/primary_text"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textModel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textCompany"
+            android:layout_toRightOf="@+id/imageIcon"
+            android:paddingLeft="16dp"
+            android:text="66666"
+            android:textColor="@color/secondary_text"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+</LinearLayout>

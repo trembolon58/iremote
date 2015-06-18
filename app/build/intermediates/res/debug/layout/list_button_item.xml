@@ -1,0 +1,80 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ru.obsession.iremote.views.SwipeLayout
+        android:id="@+id/swipe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="#FF5534"
+            android:gravity="center"
+            android:tag="Bottom3"
+            android:weightSum="10">
+
+            <ImageView
+                android:id="@+id/trash"
+                android:layout_width="27dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:src="@drawable/trash" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="5"
+                android:text="@string/delete_question"
+                android:textColor="#fff"
+                android:textSize="17sp" />
+
+            <Button
+                android:id="@+id/delete"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="4"
+                android:background="#ffffff"
+                android:padding="4dp"
+                android:text="@string/yes_delete"
+                android:textColor="#FF5534" />
+        </LinearLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="2dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="2dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/item_selector"
+                android:orientation="horizontal">
+
+                <ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/image_view"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_margin="8dp"
+                    android:background="@drawable/circle"
+                    android:padding="6dp"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/power" />
+
+                <TextView
+                    android:id="@+id/name_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginLeft="8dp"
+                    android:gravity="center_vertical"
+                    android:text="NUM_0"
+                    android:textSize="16sp" />
+            </LinearLayout>
+        </FrameLayout>
+    </ru.obsession.iremote.views.SwipeLayout>
+</FrameLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/list_button_item.xml -->

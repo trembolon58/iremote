@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <ru.obsession.iremote.views.CircleButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/view"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@android:drawable/arrow_up_float"
+        app:cb_color="@color/primary" />
+
+    <ru.obsession.iremote.views.CircleButton xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@android:drawable/arrow_down_float"
+        app:cb_color="@color/primary" />
+</LinearLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/up_down.xml -->

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Android/iremote/app/build/intermediates/exploded-aar/com.github.navasmdc/MaterialDesign/1.4/res/values-ru/values-ru.xml -->
+    <eat-comment/>
+    <color name="green">#00FF00</color>
+    <color name="thumbColor">#66aaaaaa</color>
+    <declare-styleable name="CustomAttributes">
+
+        <!-- Color of ripple animation -->
+        <attr format="color|reference" name="rippleColor"/>
+        <!-- Speed of ripple animation -->
+        <attr format="float" name="rippleSpeed"/>
+        <!-- indicate if the slider must show number indicator -->
+        <attr format="boolean" name="showNumberIndicator"/>
+        <!-- in progress view indicate max value of progress -->
+        <attr format="integer" name="max"/>
+        <!-- in progress view indicate min value of progress -->
+        <attr format="integer" name="min"/>
+        <!-- in progress view indicate value of progress -->
+        <attr format="integer" name="value"/>
+        <!-- in progress view indicate value of progress -->
+        <attr format="integer" name="progress"/>
+        <attr format="dimension" name="ringWidth"/>
+        <!-- in switche's view indicate state of view -->
+        <attr format="boolean" name="check"/>
+        <attr format="dimension" name="checkBoxSize"/>
+        <attr format="dimension" name="thumbSize"/>
+        <!-- in float button indicate icon resource -->
+        <attr format="integer" name="iconDrawable"/>
+        <!-- in button whitch contains drawable indicate icon resource -->
+        <attr format="dimension" name="iconSize"/>
+        <!-- in float button indicate if must start with animation -->
+        <attr format="boolean" name="animate"/>
+        <!-- set the border of the ripple frame -->
+        <attr format="float" name="rippleBorderRadius"/>
+        <!-- if true, delays calls to OnClickListeners until ripple effect ends -->
+        <attr format="boolean" name="clickAfterRipple"/>
+    </declare-styleable>
+    <!-- From: file:/C:/Android/iremote/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.0.0/res/values-ru/values.xml -->
+    <eat-comment/>
+    <string msgid="4600421777120114993" name="abc_action_bar_home_description">"Перейти на главный экран"</string>
+    <string msgid="1397052879051804371" name="abc_action_bar_home_description_format">"%1$s, %2$s"</string>
+    <string msgid="6623331958280229229" name="abc_action_bar_home_subtitle_description_format">"%1$s, %2$s, %3$s"</string>
+    <string msgid="1594238315039666878" name="abc_action_bar_up_description">"Перейти вверх"</string>
+    <string msgid="3588849162933574182" name="abc_action_menu_overflow_description">"Другие параметры"</string>
+    <string msgid="4076576682505996667" name="abc_action_mode_done">"Готово"</string>
+    <string msgid="7468859129482906941" name="abc_activity_chooser_view_see_all">"Показать все"</string>
+    <string msgid="2031811694353399454" name="abc_activitychooserview_choose_application">"Выбрать приложение"</string>
+    <string msgid="3691816814315814921" name="abc_searchview_description_clear">"Удалить запрос"</string>
+    <string msgid="2550479030709304392" name="abc_searchview_description_query">"Поисковый запрос"</string>
+    <string msgid="8264924765203268293" name="abc_searchview_description_search">"Поиск"</string>
+    <string msgid="8928215447528550784" name="abc_searchview_description_submit">"Отправить запрос"</string>
+    <string msgid="893419373245838918" name="abc_searchview_description_voice">"Голосовой поиск"</string>
+    <string msgid="3421042268587513524" name="abc_shareactionprovider_share_with">"Открыть доступ"</string>
+    <string msgid="7165123711973476752" name="abc_shareactionprovider_share_with_application">"Открыть доступ пользователю %s"</string>
+    <string msgid="1603543279005712093" name="abc_toolbar_collapse_description">"Свернуть"</string>
+    <!-- From: file:/C:/Android/iremote/app/src/main/res/values-ru/strings.xml -->
+    <eat-comment/>
+    <string name="action_saveRemote">Сохранить пульт</string>
+    <string name="action_settings">Настройки</string>
+    <string name="add">Добавить</string>
+    <string name="add_control">Добавить пульт</string>
+    <string name="air_conditional_cleaner">Кондиционер</string>
+    <string name="app_name">iRemote</string>
+    <string name="aqua">Бойлер</string>
+    <string name="audio">Аудиосистема</string>
+    <string name="auto_match">Автоподбор</string>
+    <string name="brand">Бренд</string>
+    <string name="button_name">Название кнопки</string>
+    <string name="button_type">Тип кнопки</string>
+    <string name="cleaner">Пылесос</string>
+    <string name="company">Производитель</string>
+    <string name="create_button_test">Данные обработаны.\n
+    \tВы можете проверить качество записи.
+    \n\t Для этого переведите устройство в режим управления, направте в сторону управляемого устройства и нажмите кнопку "Проверить"</string>
+    <string name="delete">Удалить</string>
+    <string name="delete_question">Удалить элемент?</string>
+    <string name="device_type">Тип устройства</string>
+    <string name="downloading">Загрузка</string>
+    <string name="dvd">DVD-проигрыватель</string>
+    <string name="edit">Редактировать</string>
+    <string name="enter_button_name">Введите название кнопки</string>
+    <string name="enter_name">Введите название</string>
+    <string name="error_query">Не удалось выполнить запрос к серверу. Повторить?</string>
+    <string name="fan">Вентилятор</string>
+    <string name="giy">Обучить</string>
+    <string name="help">Помощь</string>
+    <string name="input_feeld">Заполните поле</string>
+    <string name="lighting">Освещение</string>
+    <string name="match_tutorial">
+        1)Подключите iRemote\n
+        2)Переведите его в режим управления\n
+        3)Направте устройство в сторону управляемого объекта\n
+        4)Нажмите на кнопку\n
+    </string>
+    <string name="meteo">Метеостанция</string>
+    <string name="model">Модель</string>
+    <string name="move">Переместить</string>
+    <string name="navigation_drawer_close"/>
+    <string name="navigation_drawer_open"/>
+    <string name="newRemote">Новый пульт</string>
+    <string name="next">Далее</string>
+    <string name="not_finded_device">Не удалось подобрать пульт, извините..</string>
+    <string name="not_responce">Не реагирует</string>
+    <string name="nothing_founded">Ничего не найдено</string>
+    <string name="official">Официальные</string>
+    <string name="other_buttons">Дополнительные кнопки</string>
+    <string name="photo">Фотоаппарат</string>
+    <string name="projector">Проектор</string>
+    <string name="question_not_add_any_button">Вы не добавили ни одной кнопки, выйти без сохранения?</string>
+    <string name="record">Записать</string>
+    <string name="record_signal">Пожалуйста, запишите сигнал</string>
+    <string name="responce">Реагирует</string>
+    <string name="room_name">Имя комнаты</string>
+    <string name="room_type">Тип сцены</string>
+    <string name="rooms">Сцены</string>
+    <string name="satellite">Ресивер</string>
+    <string name="save">Сохранить</string>
+    <string name="search">Поиск</string>
+    <string name="tips">Подсказки</string>
+    <string name="title_activity_activity_add_button">Добавление кнопки</string>
+    <string name="title_activity_create_custom_controll">Создание пульта</string>
+    <string name="title_activity_custom_remote">Создание собственного пульта</string>
+    <string name="title_activity_rooms">Сцены</string>
+    <string name="title_activity_select_controll">Выбор пульта</string>
+    <string name="title_activity_widget_settings">Настройки виджета</string>
+    <string name="title_automatch_fragment">Тестирование кнопок</string>
+    <string name="title_button_fragment">Создание кнопки</string>
+    <string name="title_diy_fragment">Созданные кнопки</string>
+    <string name="title_edit_button_fragment">Редактирование кнопки</string>
+    <string name="title_group_fragment">Тип устройства</string>
+    <string name="title_search_company">Фирма производитель</string>
+    <string name="title_start_diy_agment">Создание пульта</string>
+    <string name="tutorial_record">\tПодключите устройство к смартфону. \n\tПереведите устройство в режим обучения, переведя тумблер в стророну смартфона.
+    \n\tНачните запись и нажмите на записываемую кнопку оригинального пульта.</string>
+    <string name="tv">Телевизор</string>
+    <string name="users_controls">Пользовательские</string>
+    <string name="verify">Проверить</string>
+    <string name="yes">Да</string>
+    <string name="yes_delete">Да, удалить</string>
+</resources>

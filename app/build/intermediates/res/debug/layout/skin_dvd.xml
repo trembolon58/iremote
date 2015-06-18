@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/power"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_margin="16dp"
+        android:tag="power"
+        materialdesign:iconDrawable="@drawable/power" />
+
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/ajact"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:tag="open"
+        materialdesign:iconDrawable="@drawable/open" />
+
+    <ru.obsession.iremote.views.Joystick
+        android:id="@+id/topControl"
+        android:layout_width="@dimen/joystick_height"
+        android:layout_height="@dimen/joystick_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:tag="joystic"
+        materialdesign:iconDrawable="@drawable/joystic" />
+
+    <ru.obsession.iremote.views.MediaButtons
+        android:layout_marginTop="@dimen/margin_colored"
+        android:layout_width="@dimen/media_width"
+        android:layout_height="@dimen/media_height"
+        android:orientation="vertical"
+        android:layout_below="@+id/topControl"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/view2" />
+
+    <ru.obsession.iremote.views.Twice
+        android:layout_marginTop="@dimen/margin_colored"
+        android:id="@+id/volume"
+        android:layout_width="@dimen/twice_width"
+        android:layout_height="@dimen/twice_height"
+        android:tag="joystic2_volume"
+        materialdesign:iconDrawable="@drawable/joystic2_volume"
+        android:layout_below="@+id/view2"
+        android:layout_centerHorizontal="true" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/mute"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_below="@+id/volume"
+        android:layout_margin="@dimen/drawer_button_margin"
+        android:tag="mute"
+        materialdesign:iconDrawable="@drawable/mute"
+        android:layout_centerHorizontal="true" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/menu"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:tag="menu"
+        materialdesign:iconDrawable="@drawable/menu"
+        android:layout_alignTop="@+id/volume"
+        android:layout_alignLeft="@+id/view2"
+        android:layout_alignStart="@+id/view2" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/cancel"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:tag="cancel_2"
+        materialdesign:iconDrawable="@drawable/cancel_2"
+        android:layout_alignTop="@+id/volume"
+        android:layout_alignRight="@+id/view2"
+        android:layout_alignEnd="@+id/view2" />
+
+</RelativeLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/skin_dvd.xml -->

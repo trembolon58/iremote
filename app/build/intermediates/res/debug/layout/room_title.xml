@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/room_card_height">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bathroom" />
+
+    <TextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#ac000000"
+        android:gravity="center_vertical"
+        android:paddingLeft="62dp"
+        android:shadowColor="@color/secondary_text"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="2"
+        android:text="bathroom"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/icons"
+        android:textSize="18sp" />
+
+    <com.gc.materialdesign.views.ButtonFloatSmall
+        android:id="@+id/bEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="12dp"
+        android:background="@color/accent"
+        materialdesign:iconDrawable="@android:drawable/ic_menu_edit" />
+
+</RelativeLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/room_title.xml -->

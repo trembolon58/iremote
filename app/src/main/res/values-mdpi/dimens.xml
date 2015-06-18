@@ -1,0 +1,30 @@
+<resources>
+    <dimen name="condition_text_temperature">60dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="navigation_drawer_width">240dp</dimen>
+    <dimen name="navigation_drawer_header_height">160dp</dimen>
+    <dimen name="cardview_radius">8dp</dimen>
+    <dimen name="control_button_size">64dp</dimen>
+    <dimen name="navigation_control_size">160dp</dimen>
+    <dimen name="button_icon_size">42dp</dimen>
+    <dimen name="control_icon_height">70dp</dimen>
+    <dimen name="drawer_icon_size">60dp</dimen>
+    <dimen name="test_button_size">120dp</dimen>
+    <dimen name="room_card_height">210dp</dimen>
+    <dimen name="preview_image_wight">90dp</dimen>
+    <dimen name="spinner_control_button_height">75dp</dimen>
+    <dimen name="spinner_control_button_width">80dp</dimen>
+    <dimen name="joystick_height">100dp</dimen>
+    <dimen name="twice_width">50dp</dimen>
+    <dimen name="twice_height">100dp</dimen>
+    <dimen name="jaystic2_margin">2dp</dimen>
+    <dimen name="condinion_width">300dp</dimen>
+    <dimen name="condition_height">150dp</dimen>
+    <dimen name="media_width">150dp</dimen>
+    <dimen name="media_height">100dp</dimen>
+    <dimen name="drawer_button_size">32dp</dimen>
+    <dimen name="drawer_button_margin">4dp</dimen>
+    <dimen name="margin_colored">4dp</dimen>
+</resources>
+

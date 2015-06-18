@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/power"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_margin="16dp"
+        android:tag="power"
+        materialdesign:iconDrawable="@drawable/power" />
+
+    <ru.obsession.iremote.views.Twice
+        android:id="@+id/chanel"
+        android:layout_width="@dimen/twice_width"
+        android:layout_height="@dimen/twice_height"
+        android:layout_below="@+id/power"
+        android:layout_marginRight="@dimen/jaystic2_margin"
+        android:layout_toLeftOf="@+id/b1"
+        android:tag="joystic2_channel"
+        materialdesign:iconDrawable="@drawable/joystic2_channel" />
+
+    <ru.obsession.iremote.views.Twice
+        android:id="@+id/volume"
+        android:layout_width="@dimen/twice_width"
+        android:layout_height="@dimen/twice_height"
+        android:layout_below="@+id/power"
+        android:layout_marginLeft="@dimen/jaystic2_margin"
+        android:layout_toRightOf="@+id/b3"
+        android:tag="joystic2_volume"
+        materialdesign:iconDrawable="@drawable/joystic2_volume" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/mute"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignParentRight="true"
+        android:layout_margin="16dp"
+        android:tag="mute"
+        materialdesign:iconDrawable="@drawable/mute" />
+
+    <ru.obsession.iremote.views.Joystick
+        android:id="@+id/topControl"
+        android:layout_width="@dimen/joystick_height"
+        android:layout_height="@dimen/joystick_height"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:tag="joystic"
+        materialdesign:iconDrawable="@drawable/joystic" />
+
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b0"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_below="@+id/b8"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/drawer_button_margin"
+        android:tag="digit_0"
+        materialdesign:iconDrawable="@drawable/digit_0" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/menu"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b0"
+        android:layout_toLeftOf="@+id/b0"
+        android:layout_toStartOf="@+id/b0"
+        android:tag="menu"
+        materialdesign:iconDrawable="@drawable/menu" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/exit"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b0"
+        android:layout_toRightOf="@+id/b0"
+        android:tag="exit"
+        materialdesign:iconDrawable="@drawable/exit" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b1"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toLeftOf="@+id/b2"
+        android:layout_toStartOf="@+id/b2"
+        android:tag="digit_1"
+        materialdesign:iconDrawable="@drawable/digit_1" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b2"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_below="@id/topControl"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/drawer_button_margin"
+        android:tag="digit_2"
+        materialdesign:iconDrawable="@drawable/digit_2" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b3"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b2"
+        android:layout_toRightOf="@+id/b2"
+        android:tag="digit_3"
+        materialdesign:iconDrawable="@drawable/digit_3" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b4"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b5"
+        android:layout_toLeftOf="@+id/b5"
+        android:layout_toStartOf="@+id/b5"
+        android:tag="digit_4"
+        materialdesign:iconDrawable="@drawable/digit_4" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b5"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_below="@id/b2"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/drawer_button_margin"
+        android:tag="digit_5"
+        materialdesign:iconDrawable="@drawable/digit_5" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b6"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b5"
+        android:layout_toRightOf="@+id/b5"
+        android:tag="digit_6"
+        materialdesign:iconDrawable="@drawable/digit_6" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b7"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b8"
+        android:layout_toLeftOf="@+id/b8"
+        android:layout_toStartOf="@+id/b8"
+        android:tag="digit_7"
+        materialdesign:iconDrawable="@drawable/digit_7" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b8"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_below="@id/b5"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/drawer_button_margin"
+        android:tag="digit_8"
+        materialdesign:iconDrawable="@drawable/digit_8" />
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/b9"
+        android:layout_width="@dimen/drawer_button_size"
+        android:layout_height="@dimen/drawer_button_size"
+        android:layout_alignTop="@+id/b8"
+        android:layout_toRightOf="@+id/b8"
+        android:tag="digit_9"
+        materialdesign:iconDrawable="@drawable/digit_9" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/b0"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/margin_colored"
+        android:orientation="horizontal">
+
+        <ru.obsession.iremote.views.ColoredButton
+            android:id="@+id/red"
+            android:layout_width="@dimen/drawer_button_size"
+            android:layout_height="@dimen/drawer_button_size"
+            android:layout_margin="@dimen/margin_colored"
+            android:background="@color/red"
+            android:tag="colored_red" />
+
+        <ru.obsession.iremote.views.ColoredButton
+            android:id="@+id/green"
+            android:layout_width="@dimen/drawer_button_size"
+            android:layout_height="@dimen/drawer_button_size"
+            android:layout_alignTop="@+id/red"
+            android:layout_marginRight="@dimen/margin_colored"
+            android:layout_toRightOf="@id/red"
+            android:tag="colored_green" />
+
+        <ru.obsession.iremote.views.ColoredButton
+            android:id="@+id/yellow"
+            android:layout_width="@dimen/drawer_button_size"
+            android:layout_height="@dimen/drawer_button_size"
+            android:layout_alignTop="@+id/green"
+            android:layout_marginRight="@dimen/margin_colored"
+            android:layout_toRightOf="@id/green"
+            android:tag="colored_yellow" />
+
+        <ru.obsession.iremote.views.ColoredButton
+            android:id="@+id/blue"
+            android:layout_width="@dimen/drawer_button_size"
+            android:layout_height="@dimen/drawer_button_size"
+            android:layout_alignTop="@+id/yellow"
+            android:layout_marginRight="@dimen/margin_colored"
+            android:layout_toRightOf="@id/yellow"
+            android:tag="colored_blue" />
+    </RelativeLayout>
+
+
+</RelativeLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/skin_tv.xml -->

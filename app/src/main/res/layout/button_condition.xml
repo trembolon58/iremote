@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ru.obsession.iremote.views.ConditionDisplay xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/condinion_width"
+    android:layout_height="@dimen/condition_height"
+    android:tag="rectahge_shadow">
+
+    <ImageView
+        android:id="@+id/wind"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/diagonal_wind"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/fan"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/fan_3"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/degres"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/textTemp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/degres"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/textTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:text="22"
+        android:textColor="@color/icons"
+        android:textSize="@dimen/condition_text_temperature"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/mode"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="12dp"
+        android:src="@drawable/heating"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="12dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lighting" />
+
+        <ImageView
+
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="4dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/working" />
+
+    </LinearLayout>
+</ru.obsession.iremote.views.ConditionDisplay>

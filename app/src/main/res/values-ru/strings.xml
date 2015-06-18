@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="air_conditional_cleaner">Кондиционер</string>
+    <string name="aqua">Бойлер</string>
+    <string name="audio">Аудиосистема</string>
+    <string name="cleaner">Пылесос</string>
+    <string name="dvd">DVD-проигрыватель</string>
+    <string name="fan">Вентилятор</string>
+    <string name="lighting">Освещение</string>
+    <string name="meteo">Метеостанция</string>
+    <string name="photo">Фотоаппарат</string>
+    <string name="projector">Проектор</string>
+    <string name="satellite">Ресивер</string>
+    <string name="tv">Телевизор</string>
+    <string name="app_name">iRemote</string>
+    <string name="action_settings">Настройки</string>
+    <string name="title_activity_select_controll">Выбор пульта</string>
+    <string name="search">Поиск</string>
+    <string name="title_activity_create_custom_controll">Создание пульта</string>
+    <string name="title_activity_widget_settings">Настройки виджета</string>
+    <string name="title_activity_rooms">Сцены</string>
+    <string name="rooms">Сцены</string>
+    <string name="newRemote">Новый пульт</string>
+    <string name="room_name">Имя комнаты</string>
+    <string name="enter_name">Введите название</string>
+    <string name="title_activity_custom_remote">Создание собственного пульта</string>
+
+    <string name="action_saveRemote">Сохранить пульт</string>
+    <string name="other_buttons">Дополнительные кнопки</string>
+    <string name="giy">Обучить</string>
+    <string name="auto_match">Автоподбор</string>
+    <string name="device_type">Тип устройства</string>
+    <string name="company">Производитель</string>
+    <string name="model">Модель</string>
+    <string name="next">Далее</string>
+    <string name="match_tutorial">
+        1)Подключите iRemote\n
+        2)Переведите его в режим управления\n
+        3)Направте устройство в сторону управляемого объекта\n
+        4)Нажмите на кнопку\n
+    </string>
+    <string name="edit">Редактировать</string>
+    <string name="title_group_fragment">Тип устройства</string>
+    <string name="title_search_company">Фирма производитель</string>
+    <string name="title_button_fragment">Создание кнопки</string>
+    <string name="title_diy_fragment">Созданные кнопки</string>
+    <string name="title_start_diy_agment">Создание пульта</string>
+    <string name="title_automatch_fragment">Тестирование кнопок</string>
+    <string name="navigation_drawer_open" />
+    <string name="navigation_drawer_close" />
+    <string name="tutorial_record">\tПодключите устройство к смартфону. \n\tПереведите устройство в режим обучения, переведя тумблер в стророну смартфона.
+    \n\tНачните запись и нажмите на записываемую кнопку оригинального пульта.</string>
+    <string name="add_control">Добавить пульт</string>
+    <string name="add">Добавить</string>
+    <string name="title_activity_activity_add_button">Добавление кнопки</string>
+    <string name="title_edit_button_fragment">Редактирование кнопки</string>
+    <string name="move">Переместить</string>
+    <string name="help">Помощь</string>
+    <string name="room_type">Тип сцены</string>
+    <string name="delete_question">Удалить элемент?</string>
+    <string name="yes_delete">Да, удалить</string>
+    <string name="responce">Реагирует</string>
+    <string name="not_responce">Не реагирует</string>
+    <string name="create_button_test">Данные обработаны.\n
+    \tВы можете проверить качество записи.
+    \n\t Для этого переведите устройство в режим управления, направте в сторону управляемого устройства и нажмите кнопку "Проверить"</string>
+    <string name="input_feeld">Заполните поле</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="official">Официальные</string>
+    <string name="users_controls">Пользовательские</string>
+    <string name="tips">Подсказки</string>
+    <string name="verify">Проверить</string>
+    <string name="button_name">Название кнопки</string>
+    <string name="button_type">Тип кнопки</string>
+    <string name="record">Записать</string>
+    <string name="enter_button_name">Введите название кнопки</string>
+    <string name="record_signal">Пожалуйста, запишите сигнал</string>
+    <string name="yes">Да</string>
+    <string name="question_not_add_any_button">Вы не добавили ни одной кнопки, выйти без сохранения?</string>
+    <string name="brand">Бренд</string>
+    <string name="error_query">Не удалось выполнить запрос к серверу. Повторить?</string>
+    <string name="downloading">Загрузка</string>
+    <string name="nothing_founded">Ничего не найдено</string>
+    <string name="not_finded_device">Не удалось подобрать пульт, извините..</string>
+
+</resources>
+

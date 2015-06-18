@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:application="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_button"
+        android:title="@string/search"
+        android:orderInCategory="0"
+        android:icon="@android:drawable/ic_menu_search"
+        application:actionViewClass="android.support.v7.widget.SearchView"
+        application:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_brand"
+        android:title="@string/brand"
+        android:orderInCategory="3"
+        application:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_diy"
+        android:title="@string/giy"
+        android:orderInCategory="3"
+        application:showAsAction="ifRoom"/>
+    <item android:id="@+id/action_auto_match"
+        android:title="@string/auto_match"
+        android:orderInCategory="2"
+        application:showAsAction="ifRoom"/>
+</menu>

@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:application="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/search_button"
+        android:title="@string/search"
+        android:orderInCategory="0"
+        android:icon="@android:drawable/ic_menu_search"
+        application:actionViewClass="android.support.v7.widget.SearchView"
+        application:showAsAction="ifRoom"/>
+</menu>

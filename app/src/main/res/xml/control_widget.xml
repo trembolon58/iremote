@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="ru.obsession.iremote.widget.WidgetSettingsActivity"
+    android:minWidth="219dip"
+    android:minHeight="78dip"
+    android:updatePeriodMillis="864000000"
+    android:initialLayout="@layout/widget_view"
+    android:widgetCategory="keyguard|home_screen"
+    android:resizeMode="horizontal|vertical"
+    android:previewImage="@drawable/widget_1"/>
+    <!--
+    android:previewImage="@drawable/preview"
+    android:configure="com.example.android.ExampleAppWidgetConfigure"
+    android:resizeMode="horizontal|vertical"
+    android:widgetCategory="home_screen|keyguard"
+    android:initialKeyguardLayout="@layout/example_keyguard"-->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:materialdesign="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ru.obsession.iremote.views.DrawerButton
+        android:id="@+id/power"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/cont1"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="32dp"
+        android:tag="power"
+        materialdesign:iconDrawable="@drawable/power" />
+
+    <RelativeLayout
+        android:id="@+id/cont1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/a"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:tag="a"
+            materialdesign:iconDrawable="@drawable/a" />
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/b"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/a"
+            android:tag="b"
+            materialdesign:iconDrawable="@drawable/b" />
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/c"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/a"
+            android:layout_margin="16dp"
+            android:tag="c"
+            materialdesign:iconDrawable="@drawable/c" />
+
+        <ru.obsession.iremote.views.DrawerButton
+            android:id="@+id/d"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/b"
+            android:layout_margin="16dp"
+            android:layout_toRightOf="@+id/c"
+            android:tag="d"
+            materialdesign:iconDrawable="@drawable/d" />
+    </RelativeLayout>
+</RelativeLayout><!-- From: file:/C:/Android/iremote/app/src/main/res/layout/skin_lighting.xml -->
